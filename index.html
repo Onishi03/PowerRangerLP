@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Ranger Movie | Em breve nos cinemas</title>
+
+    <link rel="stylesheet" href="dist/css/main.css">
+
+    <!-- bs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>
+                <img src="./dist/images/power-rangers-logo-AF020B4246-seeklogo.com.png" alt="Logo Power Ranger">
+            </h1>
+
+            <div>
+                <ul>
+                    <li>
+                        <a href="#personagens" class="btn--one">PERSONAGENS</a>
+                    </li>
+                    <li>
+                        <a href="#comprar-ingresso" class="btn--two">INGRESSOS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__container">
+            <img src="./dist/images/power_rangers___hero.png" alt="Power Ranger Hero">
+
+            <div class="hero__form">
+                <form>
+                    <h2 class="title--big">ENCONTRE UM CINEMA PRÓXIMO DE VOCÊ</h2>
+                    <label for="city">Digite sua cidade:</label>
+                    <input type="text" name="estado">
+                    <label for="state">Estado</label>
+                    <select id="state" name="estado">
+                        <option value="select" disabled selected>Selecione o estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </select>
+                    <button class="btn__primary">PROCURAR</button>
+                </form>
+
+                <div>
+                    <ul class="cinemas">
+                        <span class="text">Cinemas disponiveis:</span>
+                        <li>
+                            <img src="./dist/images/cinemark-logo-5.png" alt="Cinemark">
+                        </li>
+                        <li>
+                            <img src="./dist/images/cinepolis-logo-2.png" alt="Cinepolis">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="personagens" class="characters">
+        <h2 class="title--big">PERSONAGENS</h2>
+        <div id="carousel" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-current="true" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-current="true" aria-label="Slide 5"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-inner">
+                    <div class="carousel-item active characters__image">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div>
+                                <img src="dist/images/ranger_red.png" alt="Power Ranger Red" class="w-100">
+                            </div>
+                            <div class="ms-5 characters__description">
+                                <h3 class="title-red">Jason</h3>
+                                <p class="text">
+                                    É uma lenda na sua cidade natal um conhecido jogador de futebol americano com
+                                    habilidades para ir longe. As pessoas sabiam o seu nome e as crianças até usavam sua
+                                    camisa. Mas, uma noite, Jason bateu com seu carro contra um poste e quebrou o
+                                    joelho. Todos os sonhos de Jason morreram num instante e, com isso, ele se perdeu.
+                                    Quando nós o encontramos no início do filme, Jason é um garoto que precisa de
+                                    redenção. No final, ele vai guiar esse grupo de adolescentes, para que juntos, eles
+                                    descubram quem realmente são.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item characters__image">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div>
+                                <img src="dist/images/ranger_blue.png" alt="Power Ranger Blue" class="w-100">
+                            </div>
+                            <div class="ms-5 characters__description">
+                                <h3 class="title-blue">Billy</h3>
+                                <p class="text">
+                                    Rápido e envergonhado. Billy vive constantemente desafiado por suas fracas
+                                    habilidades para se comunicar e interagir socialmente. Inteligente e fofo, porém
+                                    sempre esquisito, às vezes de uma forma divertida, mas às vezes não. Mostrar suas
+                                    emoções, entender ironias e lidar com o seu TOC são seus principais desafios. Nunca
+                                    teve amigos de verdade e imediatamente começa a ficar próximo de Jason.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item characters__image">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div>
+                                <img src="dist/images/ranger_black.png" alt="Power Ranger Black" class="w-100">
+                            </div>
+                            <div class="ms-5 characters__description">
+                                <h3 class="title">Zack</h3>
+                                <p class="text">
+                                    É o cara da festa. Cheio de arrogância, Zack é legal por fora. Um cara charmoso e
+                                    que nunca teve problemas de falta de confiança perto das mulheres. Um grande atleta
+                                    que nunca quis jogar em qualquer equipe, a não ser a sua própria. Zack vive fazendo
+                                    propaganda dele mesmo,exceto pelo fato de viver em um trailer com sua mãe solteira
+                                    e, por isso, se sente bastante inferior aos seus colegas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item characters__image">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div>
+                                <img src="dist/images/ranger_pink.png" alt="Power Ranger Pink" class="w-100">
+                            </div>
+                            <div class="ms-5 characters__description">
+                                <h3 class="title-pink">Kimberly</h3>
+                                <p class="text">
+                                    Pouco convencional e tão legal quanto as garotas populares gostariam de ser. Na
+                                    verdade, ela até já foi uma dessas garotas, mas não é mais. Não desde que ela voltou
+                                    para a escola, após passar seis meses afastada. Os rumores sobre o motivo
+                                    circulam,mas ela parece não se preocupar com isso, porque ela voltou com uma atitude
+                                    nervosa e de rebelde sem causa. Mas a verdade é que tudo isso está mascarando um
+                                    segredo profundo que a deixa vulnerável.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item characters__image">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div>
+                                <img src="dist/images/ranger_yellow.png" alt="Power Ranger Yellow" class="w-100">
+                            </div>
+                            <div class="ms-5 characters__description">
+                                <h3 class="title-yellow">Trini</h3>
+                                <p class="text">
+                                    Misteriosa e extremamente brilhante. Seus pais se mudam frequentemente por causa do
+                                    trabalho, fazendo com que ela seja sempre a “nova garota” em qualquer escola.
+                                    Solitária convicta, Trini é autossuficiente e muito observadora. Tudo o que ela quer
+                                    é encontrar um verdadeiro grupo de amigos, algo que ela nunca vai admitir muito
+                                    menos para ela própria. No final, ela ficou de castigo e foi obrigada a consertar o
+                                    seu quarto que Rita destruiu, enquanto seus dois irmãos fazem companhia para ela.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </section>
+
+    <section class="casting">
+        <div class="casting__container">
+            <h2 class="title--big text--align">ELENCO</h2>
+
+            <ul class="casting__list">
+                <li class="casting__list__item">
+                    <img src="./dist/images/Jason.jpg" alt="Jason">
+                    <h3 class="title">Dacre Montgomery</h3>
+                    <h2 class="title--big title-red">Ranger RED</h2>
+                </li>
+                <li class="casting__list__item">
+                    <img src="./dist/images/Billy.jpg" alt="Billy">
+                    <h3 class="title">RJ Cyler</h3>
+                    <h2 class="title--big title-blue">Ranger BLUE</h2>
+                </li>
+                <li class="casting__list__item">
+                    <img src="./dist/images/Zack.jpg" alt="Zack">
+                    <h3 class="title">Ludi Lin</h3>
+                    <h2 class="title--big">Ranger BLACK</h2>
+                </li>
+                <li class="casting__list__item">
+                    <img src="./dist/images/Kimberly.jpg" alt="Kimberly">
+                    <h3 class="title">Naomi Scott</h3>
+                    <h2 class="title--big title-pink">Ranger PINK</h2>
+                </li>
+                <li class="casting__list__item">
+                    <img src="./dist/images/Trini.jpg" alt="Trini">
+                    <h3 class="title">Becky G</h3>
+                    <h2 class="title--big title-yellow">Ranger YELLOW</h2>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="sinopse">
+        <section class="sinopse__container">
+            <img src="./dist/images/power_ranger_capa.png" alt="Capa Power Ranger">
+            <div>
+                <h2 class="title--big">SINOPSE</h2>
+                <p class="text">
+                    Segue a história de cinco adolescentes normais que precisam se tornar algo extraordinário quando eles descobrem que sua cidade, Angel Grove e o mundo está prestes a ser obliterada por um ataque alienígena. Escolhidos pelo destino, nossos heróis rapidamente descobrem que são os únicos que podem salvar o planeta. Mas para isso, eles precisam resolver suas vidas primeiro, antes de se juntarem como os Power Rangers.
+                </p>
+                <button id="comprar-ingresso" class="btn__primary">COMPRAR INGRESSO</button>
+            </div>
+
+            <img src="dist/images/power_ranger.gif" alt="gif" class="gif">
+        </section>
+    </div>
+
+    <footer>
+        <img src="/dist/images/team.gif" alt="Gig power ranger">
+        <p class="text">Game trademarks and copyrights are properties of their respective owners. Nintendo properties are trademarks of Nintendo. © 2023 Nintendo.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script src="dist/js/main.js"></script>
+</body>
+
+</html>

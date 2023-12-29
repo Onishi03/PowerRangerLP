@@ -1,0 +1,31 @@
+.sinopse {
+    background-color: grey;
+
+    &__container {
+        max-width: 1440px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    img {
+        width: 50%;
+        transition: transform .3s ease-in;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    div {
+        padding-top: 60px;
+    }
+
+    .gif {
+        width: 210px;
+    }
+}
